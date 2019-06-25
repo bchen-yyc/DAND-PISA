@@ -1,17 +1,22 @@
-# (Dataset Exploration Title)
-## by (your name here)
+# PISA 2012 Data Exploration
+## by Liangbin Chen
 
 
 ## Dataset
 
-> Provide basic information about your dataset in this section. If you selected your own dataset, make sure you note the source of your data and summarize any data wrangling steps that you performed before you started your exploration.
-
+PISA is a survey of students' skills and knowledge as they approach the end of compulsory education. It is not a conventional school test. Rather than examining how well students have learned the school curriculum, it looks at how well prepared they are for life beyond school. 
+Around 510,000 students in 65 economies took part in the PISA 2012 assessment of reading, mathematics and science representing about 28 million 15-year-olds globally. Of those economies, 44 took part in an assessment of creative problem solving and 18 in an assessment of financial literacy.
+The purpose of this project is to find out the features that contribute most to the students' academic success.
 
 ## Summary of Findings
 
-> Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
-
+To avoid making this presentation too long, I only explorated the relationship between math score and other features. The approaches for english and science score are the same.
+From my exploration I found it is obvious that students in OECD countries have higher math scores than those in non-OECD countries. Male students are better in math than female students worldwide. Math score is also positively related with grade of the students, education level of their parents and their family wealth.   
+After further analysis I concluded that the OECD feature is not a independent feature. The fact that OECD students are better in math is highly related to their parents' education level and their family wealth. 
+I also noticed that there was a weak positive relationship between math scores and math study minutes. There was no obvious relationship between math and after-school study hours.
+Since gender is a indenpendent feature, I seperated the data set to male and female dataset and focused only on male students. The approach for female students are exactly the same. 
+I also seperated the top ten countries with highest students math scores. After furthing digging into the data I found that math score has a strong positive relation with math study minutes for some of those asian countries including: Japan, Korea, China-Shanghai, Singapore, Chinese Taipei. I also found math score has a moderate positive relationship with after-school study hours. My guess is that in those countries the competitions are so fierce that every minutes they spend on the subject matters.
 
 ## Key Insights for Presentation
 
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+For this presentation I only explore the relationship between math score and other main features. To avoid those features from affecting each other during analysis, I isolated them from each other. I seperated the data set to male and female subsets. I explore the relationship between math score and other features for each grade and parents education level. At the end of the presentation, I dig into data from some asian countries and draw some slightly different conclusion from global data. 
