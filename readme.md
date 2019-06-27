@@ -22,7 +22,7 @@ Libraries needed: numpy, pandas, seaborn, matplotlib
 Running environment: Jupyter Notebook  
 Executable files: PISA2012.ipynb, slide_deck_PISA2012.ipynb. This first file documented the whole process while the second file was used to generate the slide deck.  
 Slide format file: output_toggle.tpl
-Convert ipynb file to slides: jupyter nbconvert slide_deck_PISA2012.ipynb --to slides --post serve --template output_toggle
+Convert ipynb file to slides: jupyter nbconvert slide_deck_PISA2012.ipynb --to slides --post serve --template output_toggle   
 Slide deck file: slide_deck_PISA2012.slides.html
 
 ## Summary of Findings
